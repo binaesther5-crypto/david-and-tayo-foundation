@@ -1,1 +1,108 @@
-/* David and Tayo Foundation Styles */
+/* ===== GENERAL ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f8faf8;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ===== HEADER ===== */
+
+header{
+    background:#174a3c;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+}
+
+/* ===== NAVIGATION ===== */
+
+nav{
+    background:#ffffff;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:18px;
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+}
+
+nav a{
+    text-decoration:none;
+    color:#174a3c;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#d4a017;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:42px;
+    color:#174a3c;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:19px;
+    max-width:800px;
+    margin:auto;
+    margin-bottom:35px;
+}
+
+.button{
+    display:inline-block;
+    background:#d4a017;
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:6px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#b8870d;
+}
+
+/* ===== MOBILE ===== */
+
+@media(max-width:768px){
+
+header h1{
+font-size:32px;
+}
+
+.hero h2{
+font-size:30px;
+}
+
+nav{
+flex-wrap:wrap;
+gap:15px;
+}
+
+}
